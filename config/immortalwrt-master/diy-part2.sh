@@ -32,8 +32,9 @@ git clone https://github.com/jerrykuku/luci-theme-argon.git package/lean/luci-th
 # 
 # Add luci-app-homeproxy
 rm -rf package/lean/luci-app-homeproxy
-git clone https://github.com/bulianglin/homeproxy.git package/lean/luci-app-homeproxy
-# 
+git clone https://github.com/douglarek/luci-app-homeproxy.git package/lean/luci-app-homeproxy
+# https://github.com/douglarek/luci-app-homeproxy.git
+# https://github.com/bulianglin/homeproxy.git
 # Apply patch
 # git apply ../config/patches/{0001*,0002*}.patch --directory=feeds/luci
 #
