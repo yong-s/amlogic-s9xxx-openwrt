@@ -160,12 +160,17 @@ on:
       openwrt_kernel:
         description: "Select kernel version"
         required: false
-        default: "5.15.y"
+        default: "5.15.150"
         type: choice
         options:
           - 5.4.y
           - 5.10.y
           - 5.15.y
+          - 5.15.150
+          - 5.15.151
+          - 5.15.155
+          - 5.15.156
+          - 5.15.158
           - 6.1.y
           - 6.6.y
           - 6.1.y_6.6.y
@@ -203,12 +208,12 @@ on:
       builder_name:
         description: "Set OpenWrt builder signature."
         required: false
-        default: "ophub"
+        default: "yongs"
         type: choice
         options:
           - ophub
           - angel
-          - yourname
+          - yongs
 
 env:
   FEEDS_CONF: config/${{ inputs.source_branch }}/feeds.conf.default
