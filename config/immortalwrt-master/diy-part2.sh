@@ -30,9 +30,9 @@ git clone https://github.com/ophub/luci-app-amlogic.git package/luci-app-amlogic
 rm -rf package/lean/luci-theme-argon
 git clone https://github.com/jerrykuku/luci-theme-argon.git package/lean/luci-theme-argon
 # 
-# Add luci-app-homeproxy
-rm -rf package/lean/luci-app-homeproxy
-git clone https://github.com/douglarek/luci-app-homeproxy.git package/lean/luci-app-homeproxy
+# # Add luci-app-homeproxy
+# rm -rf package/lean/luci-app-homeproxy
+# git clone https://github.com/douglarek/luci-app-homeproxy.git package/lean/luci-app-homeproxy
 # https://github.com/douglarek/luci-app-homeproxy.git
 # https://github.com/bulianglin/homeproxy.git
 # Apply patch
